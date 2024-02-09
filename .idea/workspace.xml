@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.HotelServiceAppApplication.executor": "Run",
+    "Spring Boot.RatingServiceAppApplication.executor": "Run",
     "Spring Boot.UserServiceAppApplication.executor": "Run",
     "git-widget-placeholder": "hridayeshdev",
     "ignore.virus.scanning.warn.message": "true",
@@ -80,7 +84,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HotelServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.RatingServiceAppApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user_service.Application" />
@@ -91,6 +95,13 @@
     <configuration name="HotelServiceAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="HotelServiceApp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hotelserviceapp.HotelServiceAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingServiceAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="RatingServiceApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ratingserviceapp.RatingServiceAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,7 +135,7 @@
       <workItem from="1707454015688" duration="112000" />
       <workItem from="1707454169339" duration="41000" />
       <workItem from="1707454237302" duration="948000" />
-      <workItem from="1707484672860" duration="4162000" />
+      <workItem from="1707484672860" duration="10242000" />
     </task>
     <servers />
   </component>

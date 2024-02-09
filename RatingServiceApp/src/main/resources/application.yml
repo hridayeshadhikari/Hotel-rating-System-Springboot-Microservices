@@ -1,0 +1,9 @@
+server:
+  port:
+    9092
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: micro_Rating_service
