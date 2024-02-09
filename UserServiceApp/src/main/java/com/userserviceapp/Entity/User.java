@@ -6,6 +6,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Getter
 @Setter
@@ -21,4 +24,8 @@ public class User {
     private String name;
     private String about;
     private String email;
+
+    //Jpa will ignore the field annotated with @Transient and does not save it to database
+    @Transient
+    private List<Rating> rating=new ArrayList<>();
 }

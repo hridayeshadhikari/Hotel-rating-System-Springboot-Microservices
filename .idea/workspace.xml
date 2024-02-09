@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="" />
+    <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +27,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -25,6 +40,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2c4ROjGFiBnpKlZB574SSsRthAq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
+    "Spring Boot.HotelServiceAppApplication.executor": "Run",
     "Spring Boot.UserServiceAppApplication.executor": "Run",
+    "git-widget-placeholder": "hridayeshdev",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
@@ -48,6 +68,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,10 +78,26 @@
       <recent name="com.userserviceapp.Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HotelServiceAppApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user_service.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelServiceAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HotelServiceApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hotelserviceapp.HotelServiceAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,7 +126,12 @@
       <option name="presentableId" value="Default" />
       <updated>1707368833630</updated>
       <workItem from="1707368834944" duration="446000" />
-      <workItem from="1707369353904" duration="9247000" />
+      <workItem from="1707369353904" duration="11494000" />
+      <workItem from="1707453643514" duration="218000" />
+      <workItem from="1707454015688" duration="112000" />
+      <workItem from="1707454169339" duration="41000" />
+      <workItem from="1707454237302" duration="948000" />
+      <workItem from="1707484672860" duration="2804000" />
     </task>
     <servers />
   </component>
