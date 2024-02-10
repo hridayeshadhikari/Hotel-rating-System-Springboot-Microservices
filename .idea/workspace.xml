@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Controller/RatingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/UserServiceAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/UserServiceAppApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,34 +52,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Application.executor": "Run",
-    "Spring Boot.HotelServiceAppApplication.executor": "Run",
-    "Spring Boot.RatingServiceAppApplication.executor": "Run",
-    "Spring Boot.ServiceRegistryApplication.executor": "Run",
-    "Spring Boot.UserServiceAppApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/myfiles/SpringBoot Projects/Hotel-Rating",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HotelServiceAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RatingServiceAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/myfiles/SpringBoot Projects/Hotel-Rating&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.userserviceapp.Exception" />
@@ -98,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HotelServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user_service.Application" />
