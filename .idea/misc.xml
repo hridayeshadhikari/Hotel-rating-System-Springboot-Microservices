@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/UserServiceApp/pom.xml" />
         <option value="$PROJECT_DIR$/HotelServiceApp/pom.xml" />
         <option value="$PROJECT_DIR$/RatingServiceApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

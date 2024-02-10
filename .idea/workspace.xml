@@ -9,6 +9,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -54,8 +67,9 @@
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.HotelServiceAppApplication.executor": "Run",
     "Spring Boot.RatingServiceAppApplication.executor": "Run",
+    "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceAppApplication.executor": "Run",
-    "git-widget-placeholder": "hridayeshdev",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
@@ -65,8 +79,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RatingServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.HotelServiceAppApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user_service.Application" />
@@ -102,6 +116,13 @@
     <configuration name="RatingServiceAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="RatingServiceApp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ratingserviceapp.RatingServiceAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ServiceRegistry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.serviceregistry.ServiceRegistryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,12 +151,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707368833630</updated>
       <workItem from="1707368834944" duration="446000" />
-      <workItem from="1707369353904" duration="11494000" />
-      <workItem from="1707453643514" duration="218000" />
-      <workItem from="1707454015688" duration="112000" />
-      <workItem from="1707454169339" duration="41000" />
-      <workItem from="1707454237302" duration="948000" />
-      <workItem from="1707484672860" duration="10242000" />
+      <workItem from="1707369353904" duration="9247000" />
+      <workItem from="1707538000377" duration="1648000" />
     </task>
     <servers />
   </component>

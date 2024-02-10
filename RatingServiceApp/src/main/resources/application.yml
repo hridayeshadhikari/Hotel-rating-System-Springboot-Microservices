@@ -3,7 +3,17 @@ server:
     9092
 
 spring:
+  application:
+    name: RATING-SERVICE
   data:
     mongodb:
       uri: mongodb://localhost:27017
       database: micro_Rating_service
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
