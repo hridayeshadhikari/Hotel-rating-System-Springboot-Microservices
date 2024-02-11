@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API-Gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/com/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway/src/test/java/com/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/java/com/apigateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/test/java/com/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +67,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.HotelServiceAppApplication.executor": "Run",
     "Spring Boot.RatingServiceAppApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "Spring Boot.UserServiceAppApplication.executor": "Run",
-    "git-widget-placeholder": "hridayeshdev",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
@@ -78,9 +82,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "profiler.calltree.filter",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +103,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="API-Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.apigatewayapp.ApiGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apigatewayapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user_service.Application" />
@@ -134,15 +155,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Hridayesh\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="" />
@@ -155,10 +185,22 @@
       <workItem from="1707538000377" duration="1648000" />
       <workItem from="1707586652560" duration="757000" />
       <workItem from="1707587420182" duration="267000" />
+      <workItem from="1707588204918" duration="502000" />
+      <workItem from="1707621168403" duration="197000" />
+      <workItem from="1707621368761" duration="264000" />
+      <workItem from="1707622354172" duration="1508000" />
+      <workItem from="1707626023618" duration="1753000" />
+      <workItem from="1707627825691" duration="227000" />
+      <workItem from="1707628078157" duration="162000" />
+      <workItem from="1707628267042" duration="3863000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
