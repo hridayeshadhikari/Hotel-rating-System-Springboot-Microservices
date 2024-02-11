@@ -7,29 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ServiceRegistry" />
+        <module name="API-Gateway" />
         <module name="ConfigServer" />
+        <module name="ServiceRegistry" />
         <module name="HotelServiceApp" />
         <module name="RatingServiceApp" />
         <module name="UserServiceApp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="API-Gateway" target="17" />
-<<<<<<< HEAD
-      <module name="ConfigServer" target="17" />
-=======
->>>>>>> hridayeshdev
-      <module name="UserService" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API-Gateway" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="HotelServiceApp" options="-parameters" />
       <module name="RatingServiceApp" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
-      <module name="UserService" options="-parameters" />
       <module name="UserServiceApp" options="-parameters" />
     </option>
   </component>

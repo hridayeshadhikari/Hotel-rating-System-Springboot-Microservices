@@ -5,18 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Hotel-Rating.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotel-Rating.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11-02-2024_16_04_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11-02-2024_16_04_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11-02-2024_16_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11-02-2024_16_04__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/java/com/apigatewayapp/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/com/apigatewayapp/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/test/java/com/apigatewayapp/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/test/java/com/apigatewayapp/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/java/com/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServer/src/test/java/com/configserver/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/test/java/com/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Entity/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Exception/ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Exception/ErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/HotelServiceAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/HotelServiceAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Repository/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Repository/HotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Service/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Service/HotelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Service/Impl/HotelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/java/com/hotelserviceapp/Service/Impl/HotelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/src/test/java/com/hotelserviceapp/HotelServiceAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/src/test/java/com/hotelserviceapp/HotelServiceAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RatingServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Controller/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Entity/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/RatingServiceAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/RatingServiceAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Repository/RatingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Repository/RatingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Service/Impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Service/Impl/RatingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Service/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/java/com/ratingserviceapp/Service/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/src/test/java/com/ratingserviceapp/RatingServiceAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/src/test/java/com/ratingserviceapp/RatingServiceAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/serviceregistry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceRegistry/src/test/java/com/serviceregistry/ServiceRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceRegistry/src/test/java/com/serviceregistry/ServiceRegistryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Exception/ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Exception/ErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/HotelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/HotelClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/RatingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/RatingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/UserServiceAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/UserServiceAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/test/java/com/userserviceapp/UserServiceAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/test/java/com/userserviceapp/UserServiceAppApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +144,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.HotelServiceAppApplication.executor": "Run",
@@ -101,7 +180,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="API-Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.apigatewayapp.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.user_service.Application" />
@@ -145,6 +231,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -159,6 +252,7 @@
       <workItem from="1707586652560" duration="757000" />
       <workItem from="1707587420182" duration="267000" />
       <workItem from="1707646887944" duration="667000" />
+      <workItem from="1707661919968" duration="3353000" />
     </task>
     <servers />
   </component>
