@@ -1,0 +1,391 @@
+Index: HotelServiceApp/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <parent>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-starter-parent</artifactId>\r\n        <version>3.2.2</version>\r\n        <relativePath/> <!-- lookup parent from repository -->\r\n    </parent>\r\n    <groupId>com.hotelservice</groupId>\r\n    <artifactId>HotelServiceApp</artifactId>\r\n    <version>0.0.1-SNAPSHOT</version>\r\n    <name>HotelServiceApp</name>\r\n    <description>HotelServiceApp</description>\r\n    <properties>\r\n        <java.version>17</java.version>\r\n        <spring-cloud.version>2023.0.0</spring-cloud.version>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-data-jpa</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-web</artifactId>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>com.mysql</groupId>\r\n            <artifactId>mysql-connector-j</artifactId>\r\n            <scope>runtime</scope>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.cloud</groupId>\r\n            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.projectlombok</groupId>\r\n            <artifactId>lombok</artifactId>\r\n            <optional>true</optional>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-test</artifactId>\r\n            <scope>test</scope>\r\n        </dependency>\r\n    </dependencies>\r\n    <dependencyManagement>\r\n        <dependencies>\r\n            <dependency>\r\n                <groupId>org.springframework.cloud</groupId>\r\n                <artifactId>spring-cloud-dependencies</artifactId>\r\n                <version>${spring-cloud.version}</version>\r\n                <type>pom</type>\r\n                <scope>import</scope>\r\n            </dependency>\r\n        </dependencies>\r\n    </dependencyManagement>\r\n\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.springframework.boot</groupId>\r\n                <artifactId>spring-boot-maven-plugin</artifactId>\r\n                <configuration>\r\n                    <excludes>\r\n                        <exclude>\r\n                            <groupId>org.projectlombok</groupId>\r\n                            <artifactId>lombok</artifactId>\r\n                        </exclude>\r\n                    </excludes>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HotelServiceApp/pom.xml b/HotelServiceApp/pom.xml
+--- a/HotelServiceApp/pom.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/HotelServiceApp/pom.xml	(date 1707645870999)
+@@ -23,6 +23,10 @@
+             <artifactId>spring-boot-starter-data-jpa</artifactId>
+         </dependency>
+         <dependency>
++            <groupId>org.springframework.cloud</groupId>
++            <artifactId>spring-cloud-starter-config</artifactId>
++        </dependency>
++        <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-web</artifactId>
+         </dependency>
+Index: UserServiceApp/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <parent>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-starter-parent</artifactId>\r\n        <version>3.2.2</version>\r\n        <relativePath/> <!-- lookup parent from repository -->\r\n    </parent>\r\n    <groupId>com.userservice</groupId>\r\n    <artifactId>UserServiceApp</artifactId>\r\n    <version>0.0.1-SNAPSHOT</version>\r\n    <name>UserServiceApp</name>\r\n    <description>UserServiceApp</description>\r\n    <properties>\r\n        <java.version>17</java.version>\r\n        <spring-cloud.version>2023.0.0</spring-cloud.version>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-data-jpa</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-web</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.cloud</groupId>\r\n            <artifactId>spring-cloud-starter</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.cloud</groupId>\r\n            <artifactId>spring-cloud-starter-openfeign</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.mysql</groupId>\r\n            <artifactId>mysql-connector-j</artifactId>\r\n            <scope>runtime</scope>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.cloud</groupId>\r\n            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.projectlombok</groupId>\r\n            <artifactId>lombok</artifactId>\r\n            <optional>true</optional>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-test</artifactId>\r\n            <scope>test</scope>\r\n        </dependency>\r\n    </dependencies>\r\n    <dependencyManagement>\r\n        <dependencies>\r\n            <dependency>\r\n                <groupId>org.springframework.cloud</groupId>\r\n                <artifactId>spring-cloud-dependencies</artifactId>\r\n                <version>${spring-cloud.version}</version>\r\n                <type>pom</type>\r\n                <scope>import</scope>\r\n            </dependency>\r\n        </dependencies>\r\n    </dependencyManagement>\r\n\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.springframework.boot</groupId>\r\n                <artifactId>spring-boot-maven-plugin</artifactId>\r\n                <configuration>\r\n                    <excludes>\r\n                        <exclude>\r\n                            <groupId>org.projectlombok</groupId>\r\n                            <artifactId>lombok</artifactId>\r\n                        </exclude>\r\n                    </excludes>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UserServiceApp/pom.xml b/UserServiceApp/pom.xml
+--- a/UserServiceApp/pom.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/UserServiceApp/pom.xml	(date 1707645871004)
+@@ -28,6 +28,10 @@
+         </dependency>
+         <dependency>
+             <groupId>org.springframework.cloud</groupId>
++            <artifactId>spring-cloud-starter-config</artifactId>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework.cloud</groupId>
+             <artifactId>spring-cloud-starter</artifactId>
+         </dependency>
+         <dependency>
+Index: RatingServiceApp/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port:\r\n    9092\r\n\r\nspring:\r\n  application:\r\n    name: RATING-SERVICE\r\n  data:\r\n    mongodb:\r\n      uri: mongodb://localhost:27017\r\n      database: micro_Rating_service\r\n\r\neureka:\r\n  instance:\r\n    prefer-ip-address: true\r\n  client:\r\n    fetch-registry: true\r\n    service-url:\r\n      defaultZone: http://localhost:8761/eureka
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/RatingServiceApp/src/main/resources/application.yml b/RatingServiceApp/src/main/resources/application.yml
+--- a/RatingServiceApp/src/main/resources/application.yml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/RatingServiceApp/src/main/resources/application.yml	(date 1707645871003)
+@@ -10,10 +10,7 @@
+       uri: mongodb://localhost:27017
+       database: micro_Rating_service
+ 
+-eureka:
+-  instance:
+-    prefer-ip-address: true
+-  client:
+-    fetch-registry: true
+-    service-url:
+-      defaultZone: http://localhost:8761/eureka
+\ No newline at end of file
++  config:
++    import: configserver:http://localhost:9094
++
++
+Index: UserServiceApp/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port: 9090\r\nspring:\r\n  application:\r\n    name: USER-SERVICE\r\n  datasource:\r\n    url: jdbc:mysql://localhost:3306/micro_user_detail\r\n    username: root\r\n    password: Hridayesh1@\r\n    driver-class-name: com.mysql.cj.jdbc.Driver\r\n\r\n  jpa:\r\n    hibernate:\r\n      ddl-auto: update\r\n    show-sql: true\r\n\r\neureka:\r\n  instance:\r\n    prefer-ip-address: true\r\n  client:\r\n    fetch-registry: true\r\n    service-url:\r\n      defaultZone: http://localhost:8761/eureka
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UserServiceApp/src/main/resources/application.yml b/UserServiceApp/src/main/resources/application.yml
+--- a/UserServiceApp/src/main/resources/application.yml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/UserServiceApp/src/main/resources/application.yml	(date 1707645871005)
+@@ -13,11 +13,7 @@
+     hibernate:
+       ddl-auto: update
+     show-sql: true
++  config:
++    import:
++      configserver:http://localhost:9094
+ 
+-eureka:
+-  instance:
+-    prefer-ip-address: true
+-  client:
+-    fetch-registry: true
+-    service-url:
+-      defaultZone: http://localhost:8761/eureka
+\ No newline at end of file
+Index: HotelServiceApp/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port: 9091\r\n\r\nspring:\r\n  application:\r\n    name: HOTEL-SERVICE\r\n  datasource:\r\n    url: jdbc:mysql://localhost:3306/micro_hotel_detail\r\n    username: root\r\n    password: Hridayesh1@\r\n    driver-class-name: com.mysql.cj.jdbc.Driver\r\n\r\n  jpa:\r\n    show-sql: true\r\n    hibernate:\r\n      ddl-auto: update\r\neureka:\r\n  instance:\r\n    prefer-ip-address: true\r\n  client:\r\n    fetch-registry: true\r\n    service-url:\r\n      defaultZone: http://localhost:8761/eureka\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HotelServiceApp/src/main/resources/application.yml b/HotelServiceApp/src/main/resources/application.yml
+--- a/HotelServiceApp/src/main/resources/application.yml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/HotelServiceApp/src/main/resources/application.yml	(date 1707645871000)
+@@ -14,11 +14,8 @@
+     show-sql: true
+     hibernate:
+       ddl-auto: update
+-eureka:
+-  instance:
+-    prefer-ip-address: true
+-  client:
+-    fetch-registry: true
+-    service-url:
+-      defaultZone: http://localhost:8761/eureka
++
++  config:
++    import: configserver:http://localhost:9094
++
+ 
+Index: RatingServiceApp/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <parent>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-starter-parent</artifactId>\r\n        <version>3.2.2</version>\r\n        <relativePath/> <!-- lookup parent from repository -->\r\n    </parent>\r\n    <groupId>com.hotelservice</groupId>\r\n    <artifactId>RatingServiceApp</artifactId>\r\n    <version>0.0.1-SNAPSHOT</version>\r\n    <name>RatingServiceApp</name>\r\n    <description>RatingServiceApp</description>\r\n    <properties>\r\n        <java.version>17</java.version>\r\n        <spring-cloud.version>2023.0.0</spring-cloud.version>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-data-mongodb</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-web</artifactId>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.cloud</groupId>\r\n            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>\r\n        </dependency>\r\n\r\n\r\n        <dependency>\r\n            <groupId>org.projectlombok</groupId>\r\n            <artifactId>lombok</artifactId>\r\n            <optional>true</optional>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.springframework.boot</groupId>\r\n            <artifactId>spring-boot-starter-test</artifactId>\r\n            <scope>test</scope>\r\n        </dependency>\r\n    </dependencies>\r\n    <dependencyManagement>\r\n        <dependencies>\r\n            <dependency>\r\n                <groupId>org.springframework.cloud</groupId>\r\n                <artifactId>spring-cloud-dependencies</artifactId>\r\n                <version>${spring-cloud.version}</version>\r\n                <type>pom</type>\r\n                <scope>import</scope>\r\n            </dependency>\r\n        </dependencies>\r\n    </dependencyManagement>\r\n\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.springframework.boot</groupId>\r\n                <artifactId>spring-boot-maven-plugin</artifactId>\r\n                <configuration>\r\n                    <excludes>\r\n                        <exclude>\r\n                            <groupId>org.projectlombok</groupId>\r\n                            <artifactId>lombok</artifactId>\r\n                        </exclude>\r\n                    </excludes>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/RatingServiceApp/pom.xml b/RatingServiceApp/pom.xml
+--- a/RatingServiceApp/pom.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/RatingServiceApp/pom.xml	(date 1707645871001)
+@@ -23,6 +23,10 @@
+             <artifactId>spring-boot-starter-data-mongodb</artifactId>
+         </dependency>
+         <dependency>
++            <groupId>org.springframework.cloud</groupId>
++            <artifactId>spring-cloud-starter-config</artifactId>
++        </dependency>
++        <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-web</artifactId>
+         </dependency>
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ /dev/null	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/Hotel-Rating.iml\" filepath=\"$PROJECT_DIR$/.idea/Hotel-Rating.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/untitled.iml\" filepath=\"$PROJECT_DIR$/untitled.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/.idea/modules.xml	(date 1707645870985)
+@@ -2,7 +2,6 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Hotel-Rating.iml" filepath="$PROJECT_DIR$/.idea/Hotel-Rating.iml" />
+       <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
+     </modules>
+   </component>
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/API-Gateway/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/HotelServiceApp/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/RatingServiceApp/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/ServiceRegistry/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/User.Service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/UserServiceApp/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/.idea/encodings.xml	(date 1707645870983)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/API-Gateway/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/ConfigServer/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/HotelServiceApp/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/RatingServiceApp/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/ServiceRegistry/src/main/java" charset="UTF-8" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"be970d47-9e8f-43f3-a502-8d23f217b3cb\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/encodings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/mvnw\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/mvnw.cmd\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/pom.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/src/main/java/com/apigateway/ApiGatewayApplication.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/API-Gateway/src/test/java/com/apigateway/ApiGatewayApplicationTests.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"KubernetesApiProvider\">{\r\n  &quot;isMigrated&quot;: true\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2c4ROjGFiBnpKlZB574SSsRthAq\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"Spring Boot.ApiGatewayApplication.executor\": \"Run\",\r\n    \"Spring Boot.Application.executor\": \"Run\",\r\n    \"Spring Boot.HotelServiceAppApplication.executor\": \"Run\",\r\n    \"Spring Boot.RatingServiceAppApplication.executor\": \"Run\",\r\n    \"Spring Boot.ServiceRegistryApplication.executor\": \"Run\",\r\n    \"Spring Boot.UserServiceAppApplication.executor\": \"Run\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"21\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/myfiles/SpringBoot Projects/Hotel-Rating\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_interpreter_path\": \"node\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"run.configurations.included.in.services\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"com.userserviceapp.Exception\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"MicronautRunConfigurationType\" />\r\n        <option value=\"QuarkusRunConfigurationType\" />\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.ApiGatewayApplication\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"ApiGatewayApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"API-Gateway\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.apigatewayapp.ApiGatewayApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.apigatewayapp.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Application\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"UserService\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.user_service.Application\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HotelServiceAppApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"HotelServiceApp\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.hotelserviceapp.HotelServiceAppApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RatingServiceAppApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"RatingServiceApp\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.ratingserviceapp.RatingServiceAppApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ServiceRegistryApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"ServiceRegistry\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.serviceregistry.ServiceRegistryApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UserServiceAppApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"UserServiceApp\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.userserviceapp.UserServiceAppApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Spring Boot.ApiGatewayApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\Hridayesh\\AppData\\Roaming\\Subversion</configuration>\r\n    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"be970d47-9e8f-43f3-a502-8d23f217b3cb\" name=\"Changes\" comment=\"\" />\r\n      <created>1707368833630</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1707368833630</updated>\r\n      <workItem from=\"1707368834944\" duration=\"446000\" />\r\n      <workItem from=\"1707369353904\" duration=\"9247000\" />\r\n      <workItem from=\"1707538000377\" duration=\"1648000\" />\r\n      <workItem from=\"1707586652560\" duration=\"757000\" />\r\n      <workItem from=\"1707587420182\" duration=\"267000\" />\r\n      <workItem from=\"1707588204918\" duration=\"502000\" />\r\n      <workItem from=\"1707621168403\" duration=\"197000\" />\r\n      <workItem from=\"1707621368761\" duration=\"264000\" />\r\n      <workItem from=\"1707622354172\" duration=\"1508000\" />\r\n      <workItem from=\"1707626023618\" duration=\"1753000\" />\r\n      <workItem from=\"1707627825691\" duration=\"227000\" />\r\n      <workItem from=\"1707628078157\" duration=\"162000\" />\r\n      <workItem from=\"1707628267042\" duration=\"3863000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/.idea/workspace.xml	(date 1707646363025)
+@@ -5,19 +5,16 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/com/apigateway/ApiGatewayApplication.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/API-Gateway/src/test/java/com/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/mvnw" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/mvnw.cmd" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/pom.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/java/com/apigateway/ApiGatewayApplication.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.properties" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/API-Gateway/src/test/java/com/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -67,13 +64,12 @@
+     "RequestMappingsPanelWidth1": "75",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "Spring Boot.ApiGatewayApplication.executor": "Run",
+     "Spring Boot.Application.executor": "Run",
++    "Spring Boot.ConfigServerApplication.executor": "Run",
+     "Spring Boot.HotelServiceAppApplication.executor": "Run",
+     "Spring Boot.RatingServiceAppApplication.executor": "Run",
+     "Spring Boot.ServiceRegistryApplication.executor": "Run",
+     "Spring Boot.UserServiceAppApplication.executor": "Run",
+-    "git-widget-placeholder": "master",
+     "ignore.virus.scanning.warn.message": "true",
+     "jdk.selected.JAVA_MODULE": "21",
+     "kotlin-language-version-configured": "true",
+@@ -82,10 +78,9 @@
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_interpreter_path": "node",
+     "nodejs_package_manager_path": "npm",
+     "run.configurations.included.in.services": "true",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "settings.editor.selected.configurable": "profiler.calltree.filter",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -103,19 +98,16 @@
+       </set>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+-      <method v="2" />
++  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
++    <configuration default="true" type="JetRunConfigurationType">
++      <module name="RatingServiceApp" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
+     </configuration>
+-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+-      <module name="API-Gateway" />
+-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.apigatewayapp.ApiGatewayApplication" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="com.apigatewayapp.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <module name="RatingServiceApp" />
++      <option name="filePath" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -127,6 +119,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
++      <module name="ConfigServer" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.configserver.ConfigServerApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="HotelServiceAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+       <module name="HotelServiceApp" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hotelserviceapp.HotelServiceAppApplication" />
+@@ -155,24 +154,15 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+-      </list>
+-    </recent_temporary>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
++        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+       </set>
+     </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="SvnConfiguration">
+-    <configuration>C:\Users\Hridayesh\AppData\Roaming\Subversion</configuration>
+-    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
+-  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="" />
+@@ -185,22 +175,10 @@
+       <workItem from="1707538000377" duration="1648000" />
+       <workItem from="1707586652560" duration="757000" />
+       <workItem from="1707587420182" duration="267000" />
+-      <workItem from="1707588204918" duration="502000" />
+-      <workItem from="1707621168403" duration="197000" />
+-      <workItem from="1707621368761" duration="264000" />
+-      <workItem from="1707622354172" duration="1508000" />
+-      <workItem from="1707626023618" duration="1753000" />
+-      <workItem from="1707627825691" duration="227000" />
+-      <workItem from="1707628078157" duration="162000" />
+-      <workItem from="1707628267042" duration="3863000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+-  <component name="XSLT-Support.FileAssociations.UIState">
+-    <expand />
+-    <select />
+-  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"ServiceRegistry\" />\r\n        <module name=\"ConfigServer\" />\r\n        <module name=\"HotelServiceApp\" />\r\n        <module name=\"RatingServiceApp\" />\r\n        <module name=\"UserServiceApp\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"API-Gateway\" target=\"17\" />\r\n      <module name=\"ConfigServer\" target=\"17\" />\r\n      <module name=\"UserService\" target=\"17\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"ConfigServer\" options=\"-parameters\" />\r\n      <module name=\"HotelServiceApp\" options=\"-parameters\" />\r\n      <module name=\"RatingServiceApp\" options=\"-parameters\" />\r\n      <module name=\"ServiceRegistry\" options=\"-parameters\" />\r\n      <module name=\"UserService\" options=\"-parameters\" />\r\n      <module name=\"UserServiceApp\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/.idea/compiler.xml	(date 1707646246456)
+@@ -16,7 +16,10 @@
+     </annotationProcessing>
+     <bytecodeTargetLevel>
+       <module name="API-Gateway" target="17" />
++<<<<<<< HEAD
+       <module name="ConfigServer" target="17" />
++=======
++>>>>>>> hridayeshdev
+       <module name="UserService" target="17" />
+     </bytecodeTargetLevel>
+   </component>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/User.Service/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/UserServiceApp/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/HotelServiceApp/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/RatingServiceApp/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/ServiceRegistry/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/API-Gateway/pom.xml\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"ignoredFiles\">\r\n      <set>\r\n        <option value=\"$PROJECT_DIR$/User.Service/pom.xml\" />\r\n      </set>\r\n    </option>\r\n    <option name=\"workspaceImportForciblyTurnedOn\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_21\" default=\"true\" project-jdk-name=\"21\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision f231338b74337e3533fad6dee5efa09996deb7ed)
++++ b/.idea/misc.xml	(date 1707645870984)
+@@ -9,7 +9,7 @@
+         <option value="$PROJECT_DIR$/HotelServiceApp/pom.xml" />
+         <option value="$PROJECT_DIR$/RatingServiceApp/pom.xml" />
+         <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
+-        <option value="$PROJECT_DIR$/API-Gateway/pom.xml" />
++        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+       </list>
+     </option>
+     <option name="ignoredFiles">
