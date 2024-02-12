@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingServiceApp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RatingServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="API-Gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.apigatewayapp.ApiGatewayApplication" />
@@ -170,7 +169,7 @@
       <workItem from="1707587420182" duration="267000" />
       <workItem from="1707646887944" duration="667000" />
       <workItem from="1707661919968" duration="4919000" />
-      <workItem from="1707706510817" duration="8329000" />
+      <workItem from="1707706510817" duration="21060000" />
     </task>
     <servers />
   </component>
