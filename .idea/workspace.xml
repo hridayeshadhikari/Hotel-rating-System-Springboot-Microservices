@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be970d47-9e8f-43f3-a502-8d23f217b3cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserServiceApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/java/com/userserviceapp/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserServiceApp/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceAppApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="API-Gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.apigatewayapp.ApiGatewayApplication" />
@@ -169,7 +169,9 @@
       <workItem from="1707661919968" duration="4919000" />
       <workItem from="1707706510817" duration="24284000" />
       <workItem from="1707759102793" duration="192000" />
-      <workItem from="1707831676493" duration="9081000" />
+      <workItem from="1707831676493" duration="9976000" />
+      <workItem from="1707876990853" duration="8784000" />
+      <workItem from="1707920881807" duration="3245000" />
     </task>
     <servers />
   </component>
