@@ -34,4 +34,4 @@ okta:
     audience: api://default
     client-id: 0oaf4u1sydcd68kgZ5d7
     client-secret: Fwg0GQwwQ5e6Q1930ADmCcA-OAxZcK5iq3Z8AI11i-FiFRWgScCUAa2XltvSS-Ye
-    scopes: openid,profile,email,offline_access
+    scopes: openid, profile, email, offline_access
